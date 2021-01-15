@@ -1,8 +1,16 @@
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import fetchMoviesByTitle from './utils/fetchMovies';
 
 function App() {
-  console.log('hey', process.env.REACT_APP_OMDB_API)
+  
+  useEffect(() => {
+    fetchMoviesByTitle('bat').then((result) => {
+      console.log(result);
+    })
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">

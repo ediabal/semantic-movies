@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log('hey', process.env.REACT_APP_OMDB_API)
   return (
     <div className="App">
       <header className="App-header">

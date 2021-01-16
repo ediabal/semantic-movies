@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup
+
+To get set up go to [omdbapi](https://www.omdbapi.com/) and request an API key. Once you have an api key copy the `.env-sample` file to `.env` and paste your key there.
+
 ## Available Scripts
 
 In the project directory, you can run:
